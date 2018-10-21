@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  bakkerij:
+    image: ${DOCKER_REGISTRY}bakkerij
+    build:
+      context: .
+      dockerfile: bakkerij\Dockerfile
